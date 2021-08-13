@@ -1,5 +1,11 @@
 version: 0.2
 
+env:
+  variables:
+    AWS_ACCOUNT_ID: "761081309080"
+    IMAGE_REP_NAME: "mywebapp-ngnix"
+    IMAGE_TAG: "latest"
+
 phases:
   pre_build:
     commands:
