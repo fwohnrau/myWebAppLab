@@ -16,10 +16,10 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t mywebapp-ngnix:latest .
-      - docker tag mywebapp-ngnix:latest 761081309080.dkr.ecr.eu-west-1.amazonaws.com/testngnix:latest
+      - docker tag mywebapp-ngnix:latest 761081309080.dkr.ecr.eu-west-1.amazonaws.com/mywebapp-ngnix:latest
 
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 761081309080.dkr.ecr.eu-west-1.amazonaws.com/testngnix:latest
+      - docker push 761081309080.dkr.ecr.eu-west-1.amazonaws.com/mywebapp-ngnix:latest
