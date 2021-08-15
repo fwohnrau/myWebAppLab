@@ -1,6 +1,6 @@
 [
   {
-    "name": "TestNgnix",
-    "imageUri": "761081309080.dkr.ecr.eu-west-1.amazonaws.com/testngnix:latest"
+    "name": "mywebapp",
+    "imageUri": "761081309080.dkr.ecr.eu-west-1.amazonaws.com/mywebapp-ngnix:latest"
   }
 ]
