@@ -1,6 +1,6 @@
 [
   {
-    "name": "mywebapp",
+    "name": "webappRU8081",
     "imageUri": "761081309080.dkr.ecr.eu-west-1.amazonaws.com/mywebapp-ngnix:latest"
   }
 ]
