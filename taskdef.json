@@ -14,9 +14,6 @@
             ]
         }
     ],
-    "requiresCompatibilities": [
-        "EC2"
-    ],
     "memory": "128",
     "family": "ecs-demo"
 }
