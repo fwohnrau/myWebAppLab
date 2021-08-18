@@ -14,4 +14,8 @@
             ]
         }
     ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "family": "ecs-demo"
 }
