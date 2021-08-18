@@ -3,7 +3,7 @@ Resources:
  - TargetService:
      Type: AWS::ECS::Service
      Properties:
-       TaskDefinition: webappBG8082
+       TaskDefinition: arn:aws:ecs:eu-west-1:761081309080:task-definition/webappBG8082:1
        LoadBalancerInfo:
          ContainerName: webappBG8082
          ContainerPort: 80
