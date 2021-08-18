@@ -1,2 +1,17 @@
-"image": "761081309080.dkr.ecr.eu-west-1.amazonaws.com/mywebapp-ngnix:latest"
-"taskDefinitionArn": "webappBG8082"
+{
+    "executionRoleArn": "arn:aws:iam::761081309080:role/ecsServiceRole",
+    "containerDefinitions": [
+        {
+            "name": "webappBG8082",
+            "image": "<IMAGE1_NAME>",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "containerPort": 80
+                }
+            ]
+        }
+    ],
+}
